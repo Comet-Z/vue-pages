@@ -1,28 +1,168 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="main">
+    <!-- ! Load Screen Component: -->
+    <div id="load-screen">
+      <LoadScreen />
+    </div>
+
+    <v-toolbar 
+      color="#141516" 
+      elevation-12
+      id="header"
+    >
+      <v-toolbar-title id="header__title">
+        Coffee Time
+      </v-toolbar-title>
+
+      <!-- language switcher: -->
+      <div id="header__lang-switch">
+        <div class="header__lang-switch-container">
+        <select id="lang-switch">
+          <option
+           selected 
+           value="en"
+          >
+          EN
+          </option>
+          
+          <option 
+            value="ru"
+          >
+            RU
+          </option>
+        </select>
+        </div>
+      </div>
+    </v-toolbar>
+ 
+      <div class="row coffee-row-1">
+        <Cappuccino class="coffee-card " />
+        <Mocha class="coffee-card"/>
+        <Americano class="coffee-card"/>
+        <Doppio class="coffee-card "/>
+      </div>
+
+      <div class="row coffee-row-2">
+        <FlatWhite class="coffee-card"/>
+        <Irish class="coffee-card"/>
+        <Macchiato class="coffee-card"/>
+        <Irish class="coffee-card"/>
+      </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Cappuccino from './components/Cappuccino/Cappuccino.vue'
+import Americano from './components/Americano/Americano.vue'
+import Doppio from './components/Doppio/Doppio.vue'
+import FlatWhite from './components/Flat White/FlatWhite.vue'
+import Irish from './components/Irish/Irish.vue'
+import Macchiato from './components/Macchiato/Macchiato.vue'
+import Mocha from './components/Mocha/Mocha.vue'
+
+import LoadScreen from './components/UI/loadscreen/LoadScreen.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Cappuccino,
+    Americano,
+    Doppio,
+    FlatWhite,
+    Irish,
+    Macchiato,
+    Mocha,
+
+    LoadScreen,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap');
+
+
+#main {
+  display: flex;
+  flex-direction: column;
+
+  background: #0B0B0C;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+
+  width: 100%;
+}
+
+#header__title {
+  color: #FFF;
+  font-size: 25px;
+  font-family: Pacifico, cursive;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+  .coffee-row-1 {
+    padding-top: 1rem;
+  }
+  
+  .coffee-card {
+    padding-bottom: 1rem;
+  }
+
+
+/* lang switch */
+#lang-switch {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: #2e2e2e;
+  color: #FFF;
+  padding: 5px;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+
+  border-radius: 8px;
+
+  margin-left: 1rem;
+}
+
+
+
+
+/* RESPONSIVE AREA:  */
+/* tablets: */
+@media screen and (max-width: 1256px) {
+  #main { }
+
+  .row {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 5rem;
+
+    padding-top: 2%;
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+}
+
+/* mobile: */
+@media screen and (max-width: 730px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>
