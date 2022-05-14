@@ -25,16 +25,16 @@
               <slot name="body">
                 <!-- INGREDIENTS -->
                 <div class="flatwhite__ingredients-container">
-                    <h3 class="header">Ingredients</h3>
+                    <h3 class="header">Ингредиенты:</h3>
                         <ul class="flatwhite__ingredients">
-                          <li> Espresso </li>
-                          <li> Milk </li>
-                          <li> Espresso machine </li>
-                          <li> Grinder </li>
-                          <li> Scale </li>
-                          <li> Milk pitcher </li>
-                          <li> Cloth for portafilter & steamwand </li>
-                          <li> Cup (drink volume: 150-240ml) </li>
+                          <li> Эспрессо </li>
+                          <li> Молоко </li>
+                          <li> Машинка для заварки Эспрессо </li>
+                          <li> Измельчитель </li>
+                          <li> Кофейная шкала </li>
+                          <li> Кувшин для молока</li>
+                          <li> Ткань для портафильтра и паровой трубки </li>
+                          <li> Чашка (объем напитка: 150-240 мл) </li>
                         </ul>     
                 </div>
                 <hr class="break-line">
@@ -42,21 +42,21 @@
 
                 <!-- STEP-BY-STEP GUIDE -->
                 <div class="flatwhite__guide-container">
-                    <h3 class="flatwhite__guide header">Step-by-step guide:</h3>
+                    <h3 class="flatwhite__guide header">Пошаговая инструкция:</h3>
                     <div class="flatwhite__guide-steps">
                         <div class="flatwhite__guide-first">
                             <ol>
                               <li>
-                                Pull a double espresso into a cup or glass. Use double ristretto or double espresso. Often the drink has strong coffee taste.
+                                Налейте двойной эспрессо в чашку или стакан. Используйте двойной ристретто или двойной эспрессо. Часто напиток имеет ярко выраженный кофейный вкус.
                               </li>
                               <br>
                               <li>
-                                Steam the milk to 55–62 °C. Learn how the right temperature feels in your hand when holding the pitcher or use a thermometer to take the temperature of the milk.
-                                To make the milk velvety and smooth and disperse any bubbles, give the pitcher a thump on the counter and swirl the milk lightly around the pitcher.
+                                Подогрейте молоко до 55–62 °C. Узнайте, как ощущается правильная температура в вашей руке, когда вы держите кувшин, или используйте термометр, чтобы измерить температуру молока.
+                                Чтобы молоко стало бархатистым и гладким, а пузырьки рассеялись, стукните кувшином по столу и слегка взболтайте молоко вокруг кувшина.
                               </li>
                               <br>
                               <li>
-                                Make a latte art pattern on the surface of the flat white. Foam layer should be from 0.5-1.5 cm.
+                                Нарисуйте узор латте-арт на поверхности плоского белого. Слой пены должен быть от 0,5-1,5 см.
                               </li>
                               <br>
                               
