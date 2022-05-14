@@ -16,7 +16,7 @@
                   </svg>
 
                 </button>  
-                 MACCHIATO COFFEE ☕
+                 МАККИАТО ☕
                 </h2>
                 <v-divider />
               </slot>
@@ -26,12 +26,12 @@
               <slot name="body">
                 <!-- INGREDIENTS -->
                 <div class="macchiato__ingredients-container">
-                    <h3 class="header">Ingredients</h3>
+                    <h3 class="header">Ингридиенты:</h3>
                         <ul class="macchiato__ingredients">
-                            <li>1 cup of milk </li>
-                            <li>1 tablespoon vanilla syrup </li>
-                            <li>1 shot espresso, hot</li>
-                            <li>1 tablespoon caramel sauce</li>
+                            <li>1 чашка молока. </li>
+                            <li>1 чайная ложка ванильного сиропа. </li>
+                            <li>1 порция горячего эспрессо.</li>
+                            <li>1 чайная ложка карамельного соуса.</li>
                         </ul>     
                 </div>
                 <hr class="break-line">
@@ -39,45 +39,45 @@
 
                 <!-- STEP-BY-STEP GUIDE -->
                 <div class="macchiato__guide-container">
-                    <h3 class="macchiato__guide header">Step-by-step guide:</h3>
+                    <h3 class="macchiato__guide header">Пошаговая инструкция:</h3>
                     <div class="macchiato__guide-steps">
                         <div class="macchiato__guide-first">
                             <ol>
                               <li>
-                                We’re dealing with a tiny beverage, and maintaining heat is important. Preheat your machine, and especially your espresso cup.
+                               Мы имеем дело с крошечным напитком, и поддержание тепла важно. Разогрейте кофемашину и особенно чашку для эспрессо.
                               </li>
                               <br>
                               <li>
-                                Grind out your usual espresso dose (we use 18g in this Breville Barista Pro), level, tamp, and lock the portafilter in the machine.
+                               Смолоть обычную дозу эспрессо.
                               </li>
                               <br>
                               <li>
-                                Here, decide if you want two singles or one double. We’re brewing a double in this example.
-                              </li>
-                              <br>
-
-                              <li>
-                                While your shot is brewing, get your milk ready. We like to go with about 100ml of whole milk, and add about 25ml of half and half (10% cream) milk for an added creamy sweet boost.
+                               Здесь решите, хотите ли вы два одинарных или один двухмерный.
                               </li>
                               <br>
 
                               <li>
-                                Here’s a secret to a fantastic traditional macchiato: you don’t have to steam milk up to the usual 65C (150F); in fact, your microfoam will be better tasting and have a more sweeter impact if you only steam to about 40C (105F). And that’s our target – create paint-like microfoam but don’t go hot
+                                 Пока ваш шот готовится, приготовьте молоко. Нам нравится использовать около 100 мл цельного молока и добавить около 25 мл половинного молока (10% сливок) для дополнительного сливочно-сладкого привкуса.
                               </li>
                               <br>
 
                               <li>
-                                Once the steam pitcher is the slightest bit warm to your hand’s touch, it’s time to end the milk stretching and steaming in general. This is a good rule of thumb for maximizing the milk’s sweetness for your drink. Note I have not submerged the wand at this point.
+                                 Вот секрет фантастического традиционного макиато: вам не нужно нагревать молоко до обычной температуры 65°C (150°F); на самом деле, ваша микропена будет более вкусной и более сладкой, если вы будете готовить на пару только при температуре около 40°С (105°F). И это наша цель — создать микропену, похожую на краску, но не перегреться.
                               </li>
                               <br>
 
                               <li>
-                                Take a healthy spoonful of the milk froth and dollop it right onto the espresso shot, creating a nice white cap. If you’ve brewed a double shot (like we have here), two dollops of foam will do.
+                                Как только паровой кувшин станет чуть-чуть теплым на ощупь, пора заканчивать взбивание молока и приготовление на пару в целом. Это хорошее эмпирическое правило для максимизации сладости молока для вашего напитка. Обратите внимание, что я не погрузил палочку в этот момент.
                               </li>
                               <br>
 
                               <li>
-                                Serve the macchiato with a demitasse spoon in case the drinker wants to stir things up, though we recommend drinking it unstirred, for the layering effect’s different taste sensations. Enjoy!
+                                Возьмите здоровую ложку молочной пены и выложите ее прямо на шот эспрессо, создав красивую белую шапку. Если вы заварили двойной шот (как у нас здесь), две порции пены подойдут.
+                              </li>
+                              <br>
+
+                              <li>
+                                Подавайте маккиато с ложкой для демитассе на тот случай, если пьющий захочет что-то размешать, хотя мы рекомендуем пить его не размешивая, для разных вкусовых ощущений от эффекта наслоения. Наслаждайтесь!
                               </li>
                             </ol>
                         </div>

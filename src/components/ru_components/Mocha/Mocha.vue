@@ -2,8 +2,8 @@
   <div id="root">
     <!-- ! Mocha -->
     <v-card 
-      class="coffee-card" 
       id="card"
+      class="coffee-card" 
       dark 
       ripple 
       hover 
@@ -13,13 +13,13 @@
       <v-img height="250" src="./mocha.jpg" />
       <!-- ! Create a coffee card name -->
       <v-card-title class="coffee-name">
-        <p>Mocha</p>
+        <p>Мокко</p>
       </v-card-title>
 
       <v-card-text>
         <div class="text-subtitle-1">
-          Chocolate-flavoured warm beverage that is a variant of a café latte
-          commonly served in a glass rather than a mug.
+          Теплый напиток со вкусом шоколада, разновидность кофе латте.
+          обычно подается в стакане, а не в кружке.
         </div>
       </v-card-text>
     </v-card>
@@ -50,17 +50,5 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap");
-.coffee-name {
-  text-align: center;
-}
-.coffee-card {
-  cursor: pointer;
-  font-family: "Nunito", sans-serif;
 
-  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.103);
-  border-radius: 15px;
-}
-.text-subtitle-1 {
-  font-weight: bold;
-}
 </style>

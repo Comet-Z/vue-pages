@@ -1,54 +1,47 @@
 <template>
+<!-- ! RUSSIAN -->
     <div id="main">
-    <!-- ! Load Screen Component: -->
-    <div id="load-screen">
-      <LoadScreen />
-    </div>
-
-    <v-toolbar 
-      color="#141516" 
-      elevation-12
-      id="header"
-    >
-      <v-toolbar-title id="header__title">
-        Coffee Time
-      </v-toolbar-title>
-
-      <!-- language switcher: -->
-      <div id="header__lang-switch">
-        <div class="header__lang-switch-container">
-          <p>
-            <router-link to="/en">
-              <img class="uk-flag" src="./assets/united-kingdom.png">
-            </router-link>
-          </p> 
-          
-          <p>
-            <router-link to="/ru">
-              <img class="ru-flag" src="./assets/russia.png">
-            </router-link>
-          </p>         
-        </div>
+      <div class="row coffee-row-1">
+        <Cappuccino class="coffee-card " />
+        <Mocha class="coffee-card"/>
+        <Americano class="coffee-card"/>
+        <Doppio class="coffee-card "/>
       </div>
-    </v-toolbar>
 
-  <!-- language display -->
-    <router-view>
-
-    </router-view>  
-     
+      <div class="row coffee-row-2">
+        <FlatWhite class="coffee-card"/>
+        <Irish class="coffee-card"/>
+        <Macchiato class="coffee-card"/>
+        <Bicerin class="coffee-card"/>
+      </div>
   </div>
 </template>
 
 <script>
+import Cappuccino from '../components/ru_components/Cappuccino/Cappuccino.vue'
+import Americano from '../components/ru_components/Americano/Americano.vue'
+import Doppio from '../components/ru_components/Doppio/Doppio.vue'
+import FlatWhite from '../components/ru_components/Flat White/FlatWhite.vue'
+import Irish from '../components/ru_components/Irish/Irish.vue'
+import Macchiato from '../components/ru_components/Macchiato/Macchiato.vue'
+import Mocha from '../components/ru_components/Mocha/Mocha.vue'
+import Bicerin from '../components/ru_components/Bicerin/Bicerin.vue';
 
-import LoadScreen from './components/UI/loadscreen/LoadScreen.vue'
+// import LoadScreen from './components/UI/loadscreen/LoadScreen.vue'
 
 export default {
   name: 'App',
   components: {
-    LoadScreen,
-    
+    Cappuccino,
+    Americano,
+    Doppio,
+    FlatWhite,
+    Irish,
+    Macchiato,
+    Mocha,
+    Bicerin,
+
+    // LoadScreen,
   }
 }
 </script>
@@ -57,30 +50,6 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap');
 
-h1 {
-  font-size: 20px;
-  display: flex;
-}
-a {
-  text-decoration: none;
-  font-size: 25px;
-}
-
-.uk-flag,
-.ru-flag {
-  height: 30px;
-}
-
-.header__lang-switch-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  width: 80px;
-
-  margin-left: 20px;
-  margin-top: 10px;
-}
 
 #main {
   display: flex;
@@ -91,7 +60,7 @@ a {
 
 #header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;  
 
   width: 100%;
@@ -139,6 +108,8 @@ a {
 /* RESPONSIVE AREA:  */
 /* tablets: */
 @media screen and (max-width: 1256px) {
+  #main { }
+
   .row {
     display: grid;
     grid-template-columns: 2fr 2fr;

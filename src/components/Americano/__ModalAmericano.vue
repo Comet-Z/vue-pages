@@ -16,7 +16,7 @@
                        </svg>
                     </button>
 
-                    AMERICANO 
+                    AMERICANO ☕
                   </h2>
 
                 </slot>

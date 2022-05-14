@@ -129,3 +129,24 @@ h3 {
 
 /*=====  End of RESPONSIVE MODAL  ======*/
 
+#card {
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Nunito',sans-serif;
+    height: 29rem;
+    
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.103);
+
+  }
+  .coffee-name {
+    text-align: center;
+  }
+  
+  .text-subtitle-1 {
+    font-weight: bold;
+  
+  }
+
+  .header-2 {
+    text-transform: uppercase;
+  }

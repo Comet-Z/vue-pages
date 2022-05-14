@@ -16,7 +16,7 @@
                   </svg>
 
                 </button>  
-                    IRISH COFFEE ☕
+                    АЙРИШ ☕
                 </h2>
                 <v-divider />
               </slot>
@@ -26,19 +26,19 @@
               <slot name="body">
                 <!-- INGREDIENTS -->
                 <div class="irish__ingredients-container">
-                    <h3 class="header">Ingredients</h3>
+                    <h3 class="header">Ингридиенты:</h3>
                         <ul class="irish__ingredients">
                             <li>
-                                2 teaspoons packed brown sugar, to taste
+                                2 чайные ложки упакованного коричневого сахара, по вкусу.
                             </li>
                             <li>
-                                4 ounces strong, hot coffee
+                                4 унции крепкого горячего кофе.
                             </li>
                             <li>
-                                11/2 ounces Irish whiskey
+                                11/2 унции ирландского виски.
                             </li>
                             <li>
-                                1 ounce heavy cream, lightly whipped
+                                1 унция густых сливок, слегка взбитых.
                             </li>
                         </ul>     
                 </div>
@@ -47,21 +47,21 @@
 
                 <!-- STEP-BY-STEP GUIDE -->
                 <div class="irish__guide-container">
-                    <h3 class="irish__guide header">Step-by-step guide:</h3>
+                    <h3 class="irish__guide header">Пошаговая инструкция:</h3>
                     <div class="irish__guide-steps">
                         <div class="irish__guide-first">
                             <ol>
-                                <li>Gather the ingredients</li>
+                                <li>Соберите ингредиенты</li>
                                 <br>
-                                <li> Place the brown sugar into a warm Irish coffee glass, mug, or other heatproof glass. </li>
+                                <li> Поместите коричневый сахар в стакан для теплого ирландского кофе, кружку или другой термостойкий стакан. </li>
                                 <br>
-                                <li> Add the coffee and Irish whiskey. </li>
+                                <li> Добавьте кофе и ирландский виски. </li>
                                 <br>
-                                <li> Stir until the sugar is dissolved. </li>
+                                <li> Мешайте, пока сахар не растворится. </li>
                                 <br>
-                                <li> Float the lightly whipped heavy cream on top by slowly pouring it over the back of a spoon. </li>
+                                <li> Сверху выложите слегка взбитые густые сливки, медленно выливая их по тыльной стороне ложки. </li>
                                 <br>
-                                <li> Do not stir. Instead, drink the Irish coffee through the cream. Enjoy. </li>
+                                <li> Не перемешивайте. Вместо этого пейте ирландский кофе со сливками. Наслаждайтесь.</li>
                             </ol>
                         </div>
 
